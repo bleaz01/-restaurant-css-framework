@@ -1,4 +1,11 @@
-#main {
-  background-image: url("assets/img/background.jpg"); }
 
-/*# sourceMappingURL=style.css.map */
+@media screen (max wigth = 300){
+
+    #image {
+        background-image: url("assets/img/background.jpg");
+        wight: 100%;
+    
+    }
+}
+
+
