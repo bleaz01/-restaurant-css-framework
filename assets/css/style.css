@@ -9,6 +9,7 @@
 }
 ul{
 	text-align:left;
+    padding: none;
 }
 li{
 	list-style-type: none;
@@ -28,4 +29,8 @@ body{
 #text, .card-title{
 	font-family:Tangerine, cover;
 	font-size: 75px;
+}
+#img{
+
+    object-fit: cover;
 }
