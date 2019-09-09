@@ -1,11 +1,5 @@
-
-@media screen (max wigth = 300){
-
-    #image {
-        background-image: url("assets/img/background.jpg");
-        wight: 100%;
-    
-    }
+.img-header{
+	width:100%;
+	max-height:300px;
+	object-fit: cover;
 }
-
-

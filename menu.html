@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="assets/css/style.css">
     <title>menu</title>
   </head>
   <body>
@@ -15,7 +15,7 @@
 
       <header class="container-fluid">
 		<nav class="navbar navbar-expand-lg  navbar-light bg-light ">
-			<img class="d-inline-block align-top" width="30" height="30" src="assets/img/logo.jpg" alt="chef cuisto"/>
+			<img class="d-inline-block align-top" width="50" height="50" src="assets/img/logo.jpg" alt="chef cuisto"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,40 +42,79 @@
     </header>
       
       <!--FIN DE NAVBAR-->
+    <main class="container-fluid">
+		<div class="col-12">
+			<img src="assets/img/repas.jpg" class="img-fluid img-header" alt="Responsive image" >
+			<div class="carousel-caption">
+				<h1> Menu</h1>
+			</div>
+		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								 Entrée
+								 <span class="badge badge-success">bio</span>
+						</button>
+					</h2>
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul>
+							<li>Légumes grillés à la méditerranéenne, parmesan</li>
+							<li>Foie gras de canard au torchon et sa garniture</li>
+							<li>6 huîtres bio n°3 et vinaigre aux echalotes</li>
+							<li>Tomate mozzarella di buffala, basilic et Serrano</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingTwo">
+					<h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Plats<span class="badge badge-primary">Home Made</span>
 
-    <main class= "container-fluid">
-        <div class="card bg-dark text-white">
-            <img src="assets/img/menu.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay m-5">
-                <h1 class="card-title text-center">Menu</h1>
-                <hr/>
-                <h2 class="card-title">Entrée</h2>
-                <ul class="card-title">
-                    <li>Cras justo odio</li>
-                    <li>Dapibus ac facilisis in</li>
-                    <li>Morbi leo risus</li>
-                    <li>Porta ac consectetur ac</li>
-                    <li>Vestibulum at eros</li>
-                </ul>
-                <h2 class="card-title">Plats</h2>
-                <ul class="card_title">
-                    <li>Cras justo odio</li>
-                    <li>Dapibus ac facilisis in</li>
-                    <li>Morbi leo risus</li>
-                    <li>Porta ac consectetur ac</li>
-                    <li>Vestibulum at eros</li>
-                </ul>
-                <h2 class="card-title">dessert</h2>
-                <ul class="card-title">
-                    <li>Cras justo odio</li>
-                    <li>Dapibus ac facilisis in</li>
-                    <li>Morbi leo risus</li>
-                    <li>Porta ac consectetur ac</li>
-                    <li>Vestibulum at eros</li>
-                </ul>
-            </div>
-        </div>
-                               <h4 class="text-aligne: center">Menu</h4>
+						</button>
+					</h2>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul>
+							<li>Tartare de saumon, mayonaise citronnée aux herbes</li>
+							<li>Mignons de porc à la Blackwell, pommes croquettes</li>
+							<li>Tomate farcie au chèvre et miel, mesclun</li>
+							<li>Tartare de bœuf maison, frites et mayonnaise</li>
+
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingThree">
+					<h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							 Dessert <span class="badge badge-primary">home made</span>
+						</button>
+					</h2>
+				</div>
+				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul>
+							<li>Ile flottante aux amandes grillées</li>
+							<li>Coupe de fraises et chantilly</li>
+							<li>Tarte Tatin et sa glace vanille</li>
+							<li>Fraises Melba</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+                <h4 class="text-aligne: center">Menu</h4>
                 <span class="badge badge-success">Veggan</span>
                 <span class="badge badge-danger">Hot</span>
                 <span class="badge badge-primary">Poisson</span>
