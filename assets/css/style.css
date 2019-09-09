@@ -3,3 +3,16 @@
 	max-height:300px;
 	object-fit: cover;
 }
+ul{
+	text-align:left;
+}
+li{
+	list-style-type: none;
+	line-height: 30px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#9A9EB3;
+}
+

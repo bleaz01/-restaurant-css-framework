@@ -10,12 +10,12 @@
 	<link rel="stylesheet" href="assets/css/style.css">
     <title>Le chef-d'œuvre</title>
   </head>
-  <body>
+  <body class="container-fluid">
 
       <!--NAVBAR-->
 
-      <header class="container-fluid">
-		<nav class="navbar navbar-expand-lg  navbar-light bg-light ">
+	<header class="container-fluid mb-3">
+		<nav class="navbar navbar-expand-lg  navbar-light bg-light">
 			<img class="d-inline-block align-top" width="50" height="50" src="assets/img/logo.jpg" alt="ball de cristal"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
       
       <!--FIN DE NAVBAR-->
 
-	<main id="main" class="container-fluid2">
+	<main id="main" class="container-fluid">
         <section class="row">
 			<div class="jumbotron col-12 col-sm-12 col-lg-12"style="background-image: url(assets/img/background.jpg)">
 				<h1 id="text" class="display-4">Le chef-d'œuvre</h1>
@@ -54,15 +54,26 @@
         <div class="card">
             <img src="assets/img/menu_du_jour.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-black">
-                <h5 class="card-title" text-aligne=center>Menu du jour</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title text-center">Menu du jour</h5>
+                <p class="card-text">	
+					Entrée au choix
+					Tomate farcie au chèvre et miel, mesclun
+					Scampis crème champignons
+					<hr/>
+					Plat au choix
+					Tartare de saumon, mayonaise citronnée aux herbes
+					Mignons de porc à la Blackwell, pommes croquettes
+					<hr/>
+					Dessert
+					Dessert du jour
+				</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
         <div class="card">
             <img src="assets/img/evenement.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Event</h5>
+                <h5 class="card-title text-center">Event</h5>
                 <p class="card-text">
                     Evénément d’entreprise, mariage, communion, baptême, réception, incentive, team-building,
                     présentation de produit, conférence, spectacle, concert privé, etc…
@@ -75,15 +86,22 @@
             </div>
         </div>
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="assets/img/wine.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title text-center">Nos vin</h5>
+                <p class="card-text">		
+					Depuis plus de 20 ans, nous goûtons et sélectionnons les meilleurs vins issus des meilleurs terroirs français 
+					et européens. Le Chef d'oeufre vous offre une magnifique sélection des plus grands vins qui ont fait la légende 
+					de Bordeaux. Nous vous offrons également un large choix des meilleurs crus provenant de : Champagne, Bourgogne, 
+					Vallée du Rhône, Vallée de la Loire et de nos voisins : Italie, Espagne, Allemagne et Portugal.
+				</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
-</div>        </section>
     </main>
+	<footer class="mt-2 fixed-bottom">
+		<h6 class="text-center">© 2019 Le chef d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
+	</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

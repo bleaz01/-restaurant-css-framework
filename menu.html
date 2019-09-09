@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
     <title>menu</title>
   </head>
-  <body>
+  <body class="bg">
        <!--NAVBAR-->
 
       <header class="container-fluid">
@@ -42,30 +42,38 @@
     </header>
       
       <!--FIN DE NAVBAR-->
-    <main class="container-fluid">
+    <main class="container-fluid mt-2">
 		<div class="col-12">
 			<img src="assets/img/repas.jpg" class="img-fluid img-header" alt="Responsive image" >
 			<div class="carousel-caption">
 				<h1> Menu</h1>
 			</div>
 		</div>
-		<div class="accordion" id="accordionExample">
+		<div class="accordion mt-2" id="accordionExample">
 			<div class="card">
 				<div class="card-header" id="headingOne">
 					<h2 class="mb-0">
 						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								 Entrée
-								 <span class="badge badge-success">bio</span>
+							Entrée
+								 <span class="badge badge-success ">bio</span>
 						</button>
 					</h2>
 				</div>
 				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 					<div class="card-body">
 						<ul>
-							<li>Légumes grillés à la méditerranéenne, parmesan</li>
-							<li>Foie gras de canard au torchon et sa garniture</li>
-							<li>6 huîtres bio n°3 et vinaigre aux echalotes</li>
-							<li>Tomate mozzarella di buffala, basilic et Serrano</li>
+							<li>Légumes grillés à la méditerranéenne, parmesan
+								<span class="badge badge-pill badge-info">7 Eur</span>
+							</li>
+							<li>Foie gras de canard au torchon et sa garniture
+								<span class="badge badge-pill badge-info">6 Eur</span>
+							</li>
+							<li>6 huîtres bio n°3 et vinaigre aux echalotes
+								<span class="badge badge-pill badge-info">7 Eur</span>
+							</li>
+							<li>Tomate mozzarella di buffala, basilic et Serrano
+								<span class="badge badge-pill badge-info">8 Eur</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -74,7 +82,8 @@
 				<div class="card-header" id="headingTwo">
 					<h2 class="mb-0">
 						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							Plats<span class="badge badge-primary">Home Made</span>
+							Plats
+							<span class="badge badge-primary">Home Made  </span>
 
 						</button>
 					</h2>
@@ -82,10 +91,18 @@
 				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 					<div class="card-body">
 						<ul>
-							<li>Tartare de saumon, mayonaise citronnée aux herbes</li>
-							<li>Mignons de porc à la Blackwell, pommes croquettes</li>
-							<li>Tomate farcie au chèvre et miel, mesclun</li>
-							<li>Tartare de bœuf maison, frites et mayonnaise</li>
+							<li>Tartare de saumon, mayonaise citronnée aux herbes
+								<span class="badge badge-pill badge-info">35 Eur</span>
+							</li>
+							<li>Mignons de porc à la Blackwell, pommes croquettes
+								<span class="badge badge-pill badge-info">45 Eur</span>
+							</li>
+							<li>Tomate farcie au chèvre et miel, mesclun
+								<span class="badge badge-pill badge-info">32 Eur</span>
+							</li>
+							<li>Tartare de bœuf maison, frites et mayonnaise
+								<span class="badge badge-pill badge-info">55 Eur</span>
+							</li>
 
 					</div>
 				</div>
@@ -94,35 +111,34 @@
 				<div class="card-header" id="headingThree">
 					<h2 class="mb-0">
 						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							 Dessert <span class="badge badge-primary">home made</span>
+							 Dessert <span class="badge badge-primary">Home Made  </span>
 						</button>
 					</h2>
 				</div>
 				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 					<div class="card-body">
 						<ul>
-							<li>Ile flottante aux amandes grillées</li>
-							<li>Coupe de fraises et chantilly</li>
-							<li>Tarte Tatin et sa glace vanille</li>
-							<li>Fraises Melba</li>
+							<li>Ile flottante aux amandes grillées
+								<span class="badge badge-pill badge-info">15 Eur</span>
+							</li>
+							<li>Coupe de fraises et chantilly
+								<span class="badge badge-pill badge-info">12 Euro</span>
+							</li>
+							<li>Tarte Tatin et sa glace vanille
+								<span class="badge badge-pill badge-info">17 Eur</span>
+							</li>
+							<li>Fraises Melba
+								<span class="badge badge-pill badge-info">13 Eur</span>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-
-
-
-                <h4 class="text-aligne: center">Menu</h4>
-                <span class="badge badge-success">Veggan</span>
-                <span class="badge badge-danger">Hot</span>
-                <span class="badge badge-primary">Poisson</span>
-
-    </main>    
-
-        
-
+    </main>
+	<footer class="mt-2 fixed-bottom">
+		<h6 class="text-center">© 2019 Le chef d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
