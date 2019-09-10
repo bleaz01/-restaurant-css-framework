@@ -7,31 +7,32 @@
 	<meta name="description" content="Author: Riguelle Jeason, Entreprise: Becode.org, Photos: pixabay.com" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href=" assets/img/logo.jpg">
+    <link rel="shortcut icon" href=" assets/img/logo.png">
     <title>Le chef-d'œuvre</title>
   </head>
-  <body class="container-fluid">
+  <body id="bg" class="container-fluid">
 
       <!--NAVBAR-->
 
 	<header class="container-fluid mb-3">
-		<nav class="navbar navbar-expand-lg  navbar-light bg-light">
-			<img class="d-inline-block align-top" width="50" height="50" src="assets/img/logo.jpg" alt="logo d'un chefs cuisto"/>
+		<nav class="navbar navbar-expand-lg  navbar-light bg-transparent">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-			    <ul class="navbar-nav">
+			
+            <div class="collapse navbar-collapse justify-content-center mt-3" id="navbarNav">
+			    <ul class="navbar-nav ml-5">
 				    <li class="nav-item">
 					    <a class="nav-link active" href="menu.html">Menu</a>
 				    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="image.html">Image</a>
 				    </li>
+					<li id="text" class="nav-item">Le chef-d'oeufre.</li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="contact.html">Contact</a>
 				    </li>
@@ -41,68 +42,66 @@
 			    </ul>
             </div> 
 		</nav>
-    </header>
-      
-      <!--FIN DE NAVBAR-->
 
 	<main id="main" class="container-fluid">
         <section class="row">
-			<div id="img" class="jumbotron col-12 col-sm-12 col-lg-12 col-xl-12"style="background-image: url(assets/img/background.jpg)">
-                <h1 id="text" class="display-4"><strong>Le chef-d'œuvre.</strong></h1>
+			<div id="img" class="jumbotron col-12 col-sm-12 col-lg-12 col-xl-12"style="background-image: url(assets/img/background2.jpg)">
+                <h1 id="text" class="display-4 text-white">La gourmandise est un luxe qu'on peut s'offrir</h1>
                 <p class="lead">
 				</p>
 			</div>
-            <div class="card-group">
-        <div class="card">
-            <img src="assets/img/menu_du_jour.jpg" class="card-img-top" alt="plat salade, tomate">
-            <div class="card-body bg-black">
-                <h5 class="card-title text-center">Menu du jour.</h5>
-                <p class="card-text">	
-					Entrée au choix<br/>
-					Tomate farcie au chèvre et miel, mesclun
-					Scampis crème champignons
-					<hr/>
-					Plat au choix<br/>
-					Tartare de saumon, mayonaise citronnée aux herbes
-					Mignons de porc à la Blackwell, pommes croquettes
-					<hr/>
-					Dessert<br/>
-					Dessert du jour
-				</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/img/evenement.jpg" class="card-img-top" alt="table avec des verres de champagne">
-            <div class="card-body">
-                <h5 class="card-title text-center">Event.</h5>
-                <p class="card-text">
-                    Evénément d’entreprise, mariage, communion, baptême, réception, incentive, team-building,
-                    présentation de produit, conférence, spectacle, concert privé, etc…
-                    Le Vignoble offre une multitude de possibilités aux entreprises ou aux particuliers désirant organiser un événement privé.
-                    Nous disposons de 3 espaces privatisables: Notre terrasse, notre restaurant et notre salle de banquet à l’étage / Bar lounge.
-                    Il est possible d’organiser aussi bien un dîner assis qu’un Walking dinner dans chacun de ces espaces.
-                    Pour un devis sur mesure, <a href="contact.html">contactez-nous</a> par mail à info@lechefdoeufre ou par téléphone au +32 2 318 56 78
-                </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/img/wine.jpg" class="card-img-top" alt="du vin rouge">
-            <div class="card-body">
-                <h5 class="card-title text-center">Nos vins.</h5>
-                <p class="card-text">
-					Depuis plus de 20 ans, nous goûtons et sélectionnons les meilleurs vins issus des meilleurs terroirs français 
-					et européens. Le Chef d'oeufre vous offre une magnifique sélection des plus grands vins qui ont fait la légende 
-					de Bordeaux. Nous vous offrons également un large choix des meilleurs crus provenant de : Champagne, Bourgogne, 
-					Vallée du Rhône, Vallée de la Loire et de nos voisins : Italie, Espagne, Allemagne et Portugal.
-				</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
+        <div class="card-group">
+			<div class="card">
+				<img src="assets/img/menu_du_jour.jpg" class="card-img-top" alt="plat salade, tomate">
+				<div class="card-body bg-black">
+					<h5 class="card-title text-center">Menu du jour.</h5>
+					<p class="card-text">	
+						Entrée au choix<br/>
+						Tomate farcie au chèvre et miel, mesclun
+						Scampis crème champignons
+						<hr/>
+						Plat au choix<br/>
+						Tartare de saumon, mayonaise citronnée aux herbes
+						Mignons de porc à la Blackwell, pommes croquettes
+						<hr/>
+						Dessert<br/>
+						Dessert du jour
+					</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/img/evenement.jpg" class="card-img-top" alt="table avec des verres de champagne">
+				<div class="card-body">
+					<h5 class="card-title text-center">Event.</h5>
+					<p class="card-text">
+						Evénément d’entreprise, mariage, communion, baptême, réception, incentive, team-building,
+						présentation de produit, conférence, spectacle, concert privé, etc…
+						Le Vignoble offre une multitude de possibilités aux entreprises ou aux particuliers désirant organiser un événement privé.
+						Nous disposons de 3 espaces privatisables: Notre terrasse, notre restaurant et notre salle de banquet à l’étage / Bar lounge.
+						Il est possible d’organiser aussi bien un dîner assis qu’un Walking dinner dans chacun de ces espaces.
+						 Pour un devis sur mesure, <a href="contact.html">contactez-nous</a> par mail à info@lechefdoeufre ou par téléphone au +32 2 318 56 78
+					</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/img/wine.jpg" class="card-img-top" alt="du vin rouge">
+				<div class="card-body">
+					<h5 class="card-title text-center">Nos vins.</h5>
+					<p class="card-text">
+						Depuis plus de 20 ans, nous goûtons et sélectionnons les meilleurs vins issus des meilleurs terroirs français 
+						et européens. Le Chef d'oeufre vous offre une magnifique sélection des plus grands vins qui ont fait la légende 
+						de Bordeaux. Nous vous offrons également un large choix des meilleurs crus provenant de : Champagne, Bourgogne, 
+						Vallée du Rhône, Vallée de la Loire et de nos voisins : Italie, Espagne, Allemagne et Portugal.
+					</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
     </main>
 	<footer class="mt-2">
-		<h6 class="text-center">© 2019 Le chef d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
+		<h6 class="text-center">© 2019 Le chef-d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
 	</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -7,31 +7,31 @@
 	<meta name="description" content="Author: Riguelle Jeason, Entreprise: Becode.org, Photos: pixabay.com" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Mes Links font-familly, CSS, icon-onglet-->
 	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="shortcut icon" href=" assets/img/logo.jpg">
-    <title>menu</title>
+	<link rel="shortcut icon" href="assets/img/logo.png">
+    <title>Menu</title>
   </head>
-  <body class="bg">
+  <body id="menu">
        <!--NAVBAR-->
 
-      <header class="container-fluid">
-		<nav class="navbar navbar-expand-lg  navbar-light bg-light ">
-			<img class="d-inline-block align-top" width="50" height="50" src="assets/img/logo.jpg" alt="chef cuisto"/>
+      <header class="container-fluid mt-3">
+		<nav class="navbar navbar-expand-lg  navbar-light bg-transparent">	
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 			    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-				    <li class="nav-item">
+                   	 <li class="nav-item">
 					    <a class="nav-link active" href="menu.html">Menu</a>
 				    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="image.html">Image</a>
 				    </li>
+					<li class="nav-item">
+                        <a id="text" class="nav-link" href="index.html">Le chef-d'oeufre.</a>
+                    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="contact.html">Contact</a>
 				    </li>
@@ -44,14 +44,10 @@
     </header>
       
       <!--FIN DE NAVBAR-->
-    <main class="container-fluid mt-2">
-		<div class="col-12">
-			<img src="assets/img/repas.jpg" class="img-fluid img-header" alt="Responsive image d'un repas de viande, légume" >
-			<div class="carousel-caption">
-                <h1><strong>Menu</strong></h1>
-			</div>
-		</div>
-		<div class="accordion mt-2" id="accordionExample">
+    <main class="container mt-2">
+		<h1 id="text" class="text-white">Menu.</h1>
+		<img src="assets/img/repas.jpg" class="img-fluid img-header" alt="Responsive image d'un repas de viande, légume" >
+        <div class="accordion mt-3 mb-5" id="accordionExample">
 			<div class="card">
 				<div class="card-header" id="headingOne">
 					<h2 class="mb-0">
@@ -62,7 +58,7 @@
 					</h2>
 				</div>
 				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-					<div class="card-body">
+					<div class="card-body-1">
 						<ul>
 							<li>Légumes grillés à la méditerranéenne, parmesan
 								<span class="badge badge-pill badge-info">7 Eur</span>
@@ -91,7 +87,7 @@
 					</h2>
 				</div>
 				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-					<div class="card-body">
+					<div class="card-body-1">
 						<ul>
 							<li>Tartare de saumon, mayonaise citronnée aux herbes
 								<span class="badge badge-pill badge-info">35 Eur</span>
@@ -105,7 +101,7 @@
 							<li>Tartare de bœuf maison, frites et mayonnaise
 								<span class="badge badge-pill badge-info">55 Eur</span>
 							</li>
-
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -118,7 +114,7 @@
 					</h2>
 				</div>
 				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-					<div class="card-body">
+					<div class="card-body-1">
 						<ul>
 							<li>Ile flottante aux amandes grillées
 								<span class="badge badge-pill badge-info">15 Eur</span>
@@ -136,9 +132,36 @@
 					</div>
 				</div>
 			</div>
+			<div class="card">
+				<div class="card-header" id="headingThree">
+					<h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							 Vin <span class="badge badge-danger">circuit court</span>
+						</button>
+					</h2>
+				</div>
+				<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+					<div class="card-body-1">
+						<ul>
+							<li>Vin table "Chardonnay"
+								<span class="badge badge-pill badge-info">15 Eur</span>
+							</li>
+							<li>Château LaTour Bordeaux - 1er cru classé Pauillac - Rouge - 14°
+								<span class="badge badge-pill badge-info">12 200 Eur</span>
+							</li>
+							<li>Château Cheval Blanc
+								<span class="badge badge-pill badge-info">4700 Eur</span>
+							</li>
+							<li>Musigny
+								<span class="badge badge-pill badge-info">13 000 Eur</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
     </main>
-	<footer class="mt-2 fixed-bottom">
+	<footer>
 		<h6 class="text-center">© 2019 Le chef d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
 	</footer>
 

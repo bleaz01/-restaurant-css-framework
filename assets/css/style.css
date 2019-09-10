@@ -37,7 +37,7 @@ body{
 footer{
 	margin-top:auto;
 }
-#contact{
+#contact, #menu, #bg, .card-body-1{
 	background-color:#B3B3A1;
 }
 #test{

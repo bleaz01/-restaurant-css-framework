@@ -9,30 +9,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../assets/css/style.css">
-	<link rel="shortcut icon" href="../assets/img/logo.jpg">
+	<link rel="shortcut icon" href="../assets/img/logo.png">
 
     <title>pag=1</title>
   </head>
-  <body>
+  <body id="bg">
        <!--NAVBAR-->
 
-      <header class="container-fluid">
-		<nav class="navbar navbar-expand-lg  navbar-light bg-light ">
-			<img class="d-inline-block align-top" width="50" height="50" src="../assets/img/logo.jpg" alt="chef cuisto" title="mohamed Hassan de Pixabay"/>
+      <header class="container-fluid mt-3">
+		<nav class="navbar navbar-expand-lg  navbar-light bg-transparent ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 			    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../index.html">Accueil</a>
-                    </li>
-				    <li class="nav-item">
-					    <a class="nav-link active" href="../menu.html">Menu</a>
+                   	<li class="nav-item">
+					    <a class="nav-link" href="../menu.html">Menu</a>
 				    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="../image.html">Image</a>
 				    </li>
+					 <li class="nav-item">
+                        <a id="text" class="nav-link" href="../index.html">Le chef-d'oeufre.</a>
+                    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="../contact.html">Contact</a>
 				    </li>
@@ -47,7 +46,7 @@
 		 <!--FIN DE NAVBAR-->
 
     <main class="container-fluid">
-		<h1 id="text">Gallery-photos</h1>
+		<h1 id="text" class="text-white">Gallery-photos.</h1>
 			<div class="row">
 				<div class="col-sm-4">
 					<img src="../assets/img/cuisine2.jpg" class="img-fluid" alt="Responsive image une cuisine" >

@@ -7,31 +7,31 @@
 	<meta name="description" content="Author: Riguelle Jeason, Entreprise: Becode.org, Photos: pixabay.com" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Mes links font-family, fa fa awesome, CSS , icon-onglet -->
 	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css" >
-	<link rel="shortcut icon" href=" assets/img/logo.jpg">
-    <title>contact</title>
+	<link rel="shortcut icon" href=" assets/img/logo.png">
+    <title>contact us</title>
   </head>
   <body id="contact">
        <!--NAVBAR-->
-
-      <header class="container-fluid">
-		<nav class="navbar navbar-expand-lg  navbar-light bg-light">
-			<img class="d-inline-block align-top" width="50" height="50" src="assets/img/logo.jpg" alt="logo chefs cuisto"/>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+      <header class="container-fluid mt-3 mb-2">
+		<nav class="navbar navbar-expand-lg  navbar-light bg-transparent">
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 			    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-				    <li class="nav-item">
+					<li class="nav-item">
 					    <a class="nav-link" href="menu.html">Menu</a>
 				    </li>
 				    <li class="nav-item">
 					    <a class="nav-link" href="image.html">Image</a>
 				    </li>
+					<li class="nav-item">
+                        <a id ="text" class="nav-link" href="index.html">Le chef-d'oeufre.</a>
+                    </li>
 				    <li class="nav-item">
 					    <a class="nav-link active" href="contact.html">Contact</a>
 				    </li>
@@ -44,10 +44,24 @@
     </header>
         <!--FIN DE NAVBAR-->
     <main class="container">
-		<div class="col-12">
-			<img src="assets/img/contact.jpg" class="img-fluid img-header" alt="Responsive image homme qui montre du doigt" >
-			<div class="carousel-caption">
-				<h1><strong>Contactez-nouz</strong></h1>
+		<h1 id="text" class="text-white">Contact us.</h1>
+		<img src="assets/img/contact.jpg" class="img-fluid img-header" alt="Responsive image homme qui montre du doigt" >
+		<div class="modal fade" id="oMessagerie" tabindex="-1" role="dialog" aria-labelledby="oMessagerieLabel" aria-hidden="true">
+			 <div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="oMessagerieLabel">Titre</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+							<span aria-hidden="true">....</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						Contenu
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+					</div>
+				</div>
 			</div>
 		</div>
         <form class="bg-transparent">
@@ -79,15 +93,13 @@
                 <textarea class="form-control bg-transparent" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 			<div class="justify-content-center">
-				<button type="submit" class="btn btn-primary"><img class="mr-2" alt="bouton sent" src="assets/img/message.png" height="25px"/>Sent</button>
+				<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
 			</div>
         </form>
     </main>
 	<footer class="mt-4">
-		<h6 class="text-center">© 2019 Le chef d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
+		<h6 class="text-center">© 2019 Le chef-d'oeufre All rights reserved. Website by Jeason  Riguelle</h6>
 	</footer>
-
-
                 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
