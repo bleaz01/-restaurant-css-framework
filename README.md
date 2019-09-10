@@ -1,4 +1,3 @@
-# [Mon propre site](https://bleaz01.github.io/restaurant-css-framework/.)
 
 # Il étais une fois un site sur un restaurant...
 
@@ -43,6 +42,15 @@ Je pense, que sais une bonne pratique.
 Touts mes images viens de [Pixabay](https://pixabay.com/fr/)
 
 ##Vérifier si le site fonction (utilsé les bon outils)
+
+* Lighthous GOOGLE
+* [A11yproject](https://a11yproject.com/)
+
+##6 Resulta
+
+ [Le site restaurant](https://bleaz01.github.io/restaurant-css-framework/.)
+
+
 
 
 
