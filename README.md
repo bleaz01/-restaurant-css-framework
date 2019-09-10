@@ -1,7 +1,7 @@
 
 # Il étais une fois un site sur un restaurant...
 
-En 1 semaine réalisé un site _mobil first_ en [_boostrap_](https://getbootstrap.com/).
+En 1 semaine pour réaliser un site _mobil first_ en [_boostrap_](https://getbootstrap.com/).
 
 ![gif](https://media.giphy.com/media/CiYImHHBivpAs/giphy.gif)
 
@@ -11,11 +11,11 @@ Décortiquons le probléme.
 	2. Faire son layout format papier.
 	3. Coder
 	4. Ajouter des photos _sans droit d'auteur_
-	5. vérifier si le site fonction (utlisé les bon outils).
-	6. Résulta
+	5. Vérifier si le site fonctionne (utlisé les bon outils).
+	6. Résultat
 
 
-## 1 Chercher l'information.
+## 1. Chercher l'information.
 
 >When life gives you questions GOOGLE has answers.
 
@@ -25,30 +25,30 @@ Quelque site que j'ai consulté pour m'aidé a réalisé ce project.
 * [Bootstrap 4 Cheat Sheet](https://hackerthemes.com/bootstrap-cheatsheet/)
 * [w3schools.com](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
 
-## 2 Faire son layout format papier.
+## 2. Faire son layout format papier.
 
 Avant de coder une ligne de code, je dessine d'apport le croquis de mon site.
 
-Je pense, que sais une bonne pratique.
+Je pense, que s'est une bonne pratique.
 
->Dessine le site, code le site , vent le site.
+>Déssine le site, code le site , vent le site.
 
-## 3 Coder
+## 3. Coder
 
 ![gif](https://media.giphy.com/media/Wsju5zAb5kcOfxJV9i/giphy.gif)
 
 ## 4 Ajouter des photos sans droit d'auteur.
 
-Touts mes images viens de [Pixabay](https://pixabay.com/fr/)
+Toutes mes images viennent de [Pixabay](https://pixabay.com/fr/)
 
-## Vérifier si le site fonction (utilsé les bon outils)
+## 5. Vérifier si le site fonctionne (utilsé les bon outils)
 
-* Lighthous GOOGLE
+* Lighthouse GOOGLE
 * [A11yproject](https://a11yproject.com/)
 
-## 6 Resulta
+## 6. Résultat
 
- [Le site restaurant](https://bleaz01.github.io/restaurant-css-framework/.)
+ [Le site du restaurant](https://bleaz01.github.io/restaurant-css-framework/.)
 
 
 
