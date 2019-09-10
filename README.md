@@ -5,6 +5,7 @@ En 1 semaine pour réaliser un site _mobil first_ en [_boostrap_](https://getboo
 
 ![gif](https://media.giphy.com/media/CiYImHHBivpAs/giphy.gif)
 
+# :w
 Décortiquons le probléme.
 
 	1. Chercher l'information.
